@@ -25,10 +25,10 @@ namespace InstallUninstallDocSample
             doc.TerminalCode = "292929";
             doc.WhsCode = "აწყ.ახალ";
             doc.ItemCode = "TerminalTest3";
-            doc.InstallType = ApplicationCore.Enums.InstallTypeEnum.Install;
             doc.DocDate = DateTime.Now;
             doc.TerminalLocation = "5";
             doc.EmpID = 1;
+            doc.Remark = "remarks";
 
             var line = new InstallDocLines();
             line.WhsLocation = 5;
