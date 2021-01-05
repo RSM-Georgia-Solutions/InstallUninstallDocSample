@@ -26,7 +26,7 @@ namespace InstallUninstallDocSample
         public void CreateTransferDocTest()
         {
             var transferDoc = new TransferDoc();
-            transferDoc.EmpID = "1";
+            transferDoc.EmpID = 1;
             transferDoc.TransferType = TFTransferTypes.FromWarehouse;
             transferDoc.TransferStatus = TFTransferStatusTypes.Started;
             transferDoc.FromWhsCode = "აწყ.ახალ";
